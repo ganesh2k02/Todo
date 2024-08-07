@@ -1,0 +1,44 @@
+
+.custom-navbar{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f8f9fa; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+  .navbar-brand {
+    color: red; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 24px;
+    font-weight: bold; 
+  }
+  
+  .nav-btn{
+    font-weight: 500; 
+    background-color: red; 
+    color: white !important; 
+    margin-left: 10px; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+  
+  .nav-btn:hover {
+    background-color: #c82333; 
+    color: #fff;
+    text-decoration: none; 
+  }
+  
+  .nav-btn.active {
+    background-color: #dc3545; 
+    color: #ffffff; 
+    border-color: #dc3545;
+  }
+  
+  .user-png {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  

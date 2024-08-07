@@ -1,0 +1,48 @@
+.home {
+  height: 100vh; /* Ensure the section covers the full viewport height */
+  background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Light gradient background for a clean look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding for spacing */
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better depth */
+}
+
+.home h1 {
+  font-size: 2.5rem; /* Responsive font size */
+  margin-bottom: 20px; /* Space between title and text */
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.home-btn {
+  font-weight: 500; 
+  background-color: #dc3545; 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color and scale */
+}
+
+.home-btn:hover {
+  background-color: #c82333; 
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.home-btn:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5); /* Focus outline with color */
+}
